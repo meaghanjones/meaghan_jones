@@ -7,68 +7,63 @@ h1 {
   display: block;;
 }
 
+.contact-icons {
+  color: #0080ff;
+}
+
+/*.pineapple {
+  width: 5%;
+  float:left;
+}*/
+
 
 .square {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    background-color:#1E1E1E;
-    overflow:hidden;
+  float:left;
+  position: relative;
+  width: 30%;
+  padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+  margin:1.66%;
+  background-color:#1E1E1E;
+  overflow:hidden;
 }
 
 .content {
-    position:absolute;
-    height:90%; /* = 100% - 2*5% padding */
-    width:90%; /* = 100% - 2*5% padding */
-    padding: 5%;
+  position:absolute;
+  height:90%; /* = 100% - 2*5% padding */
+  width:90%; /* = 100% - 2*5% padding */
+  padding: 5%;
 
 }
 .table{
-    display:table;
-    width:100%;
-    height:100%;
+  display:table;
+  width:100%;
+  height:100%;
 }
 .table-cell{
-    display:table-cell;
-    vertical-align:middle;
+  display:table-cell;
+  vertical-align:middle;
 }
-/*  For list */
-ul{
-    text-align:left;
-    margin:5% 0 0;
-    padding:0;
-    list-style-position:inside;
-}
-li{
-    margin: 0 0 0 5%;
-    padding:0;
-}
-
-
-/*  For responsive images */
 
 .content .rs{
-    width:auto;
-    height:auto;
-    max-height:90%;
-    max-width:100%;
+  width:auto;
+  height:auto;
+  max-height:90%;
+  max-width:100%;
 }
 /*  For responsive images as background */
 
 .bg{
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-    color:#fff;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  color:#FAFAFA;
 }
 
 .img1{
-    background-image: url('../img/candlelight_screenshot.png');
+  background-image: url('../img/candlelight_screenshot.png');
 }
 .img2{
-    background-image: url('candlelight_screenshot.png');
+    background-image: url('../img/marinamura.png');
 }
 .img3{
     background-image: url('candlelight_screenshot.png');
@@ -78,47 +73,31 @@ li{
 
 
 body {
-    font-size:20px;
-    font-family: 'Lato',verdana, sans-serif;
-    color: #fff;
-    text-align:center;
-    background:#ECECEC;
+  font-size:20px;
+  font-family: 'Lato',verdana, sans-serif;
+  color: #FAFAFA;
+  text-align:center;
+  background:#FAFAFA;
+}
+
+.footer {
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.nav-bar {
+  background: #FAFAFA;
 }
 p{
-    margin:0;
-    padding:0;
-    text-align:left;
+  margin:0;
+  padding:0;
+  text-align:left;
 }
 
-.numbers{
-    font-weight:900;
-    font-size:100px;
-}
-
-
-.tilt {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.tilt:hover {
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  -ms-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-}
-
-.pic {
-  /*float: left;
-  height: 300px;
-  width: 300px;
-  margin: 20px;
-  overflow: hidden;*/
-
-  -webkit-box-shadow: 5px 5px 5px #111;
-  box-shadow: 5px 5px 5px #111;
-}
+.pic{
+  opacity: 1;
+  filter: alpha(opacity=100);
+ }
+ .pic:hover { opacity: 0.3;
+   filter: alpha(opacity=30);
+ }
