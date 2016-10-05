@@ -73,7 +73,13 @@ h1 {
   background-image: url('../img/whatisit.png');
 }
 
+.img5{
+  background-image: url('../img/meal_tracker_app.png');
+}
 
+.img6{
+  background-image: url('../img/dopemessage.png');
+}
 
 /*  following just for the demo */
 
@@ -103,7 +109,12 @@ p{
 .pic{
   opacity: 1;
   filter: alpha(opacity=100);
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
  }
- .pic:hover { opacity: 0.3;
+ .pic:hover {
+   opacity: 0.3;
    filter: alpha(opacity=30);
  }
