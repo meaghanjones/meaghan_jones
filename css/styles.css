@@ -100,9 +100,15 @@ body {
 .nav-bar {
   background: #FAFAFA;
 }
-p{
-  margin:0;
-  padding:0;
+
+.top-p{
+  padding: 10%;
+  text-align:left;
+  color: #FFA82A;
+}
+
+p {
+  color: #FFA82A;
   text-align:left;
 }
 
@@ -117,4 +123,8 @@ p{
  .pic:hover {
    opacity: 0.3;
    filter: alpha(opacity=30);
+ }
+
+ .gif{
+   padding-top: 10%;
  }
