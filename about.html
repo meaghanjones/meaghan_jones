@@ -57,6 +57,18 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+      var feed = new Instafeed({
+          get: 'tagged',
+          tagName: 'meaghanworkingonthings',
+          clientId: 'f88b671330c145b9b0d479ad9dddd7a0'
+          template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+      });
+      feed.run();
+  </script>
+
+
   <footer class="footer">
     <div class="container">
       <a href="https://www.linkedin.com/in/meaghanj"><i class="fa fa-linkedin fa-2x contact-icons" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/meaghanjones"><i class="fa fa-github fa-2x contact-icons"></i></a>
