@@ -4,8 +4,22 @@ h1 {
   color: #0080ff;
   text-align: center;
   font-size: 350%;
-  display: block;;
+  display: block;
 }
+
+body {
+  font-size:20px;
+  font-family: 'Lato',verdana, sans-serif;
+  color: #FAFAFA;
+  text-align:center;
+  background:#FAFAFA;
+}
+
+p {
+  color: #FFA82A;
+  text-align:left;
+}
+
 
 .contact-icons {
   color: #0080ff;
@@ -84,13 +98,6 @@ h1 {
 /*  following just for the demo */
 
 
-body {
-  font-size:20px;
-  font-family: 'Lato',verdana, sans-serif;
-  color: #FAFAFA;
-  text-align:center;
-  background:#FAFAFA;
-}
 
 .footer {
   padding-top: 50px;
@@ -107,10 +114,6 @@ body {
   color: #FFA82A;
 }
 
-p {
-  color: #FFA82A;
-  text-align:left;
-}
 
 .pic{
   opacity: 1;
@@ -128,3 +131,52 @@ p {
  .gif{
    padding-top: 10%;
  }
+
+ .flag-icon-background {
+   background-size: contain;
+   background-position: 50%;
+   background-repeat: no-repeat;
+ }
+ .flag-icon {
+   background-size: contain;
+   background-position: 50%;
+   background-repeat: no-repeat;
+   position: relative;
+   display: inline-block;
+   width: 1.33333333em;
+   line-height: 1em;
+ }
+ .flag-icon:before {
+   content: "\00a0";
+ }
+ .flag-icon.flag-icon-squared {
+   width: 1em;
+ }
+
+ .flag-icon-es {
+   background-image: url(../flags/4x3/es.svg);
+ }
+ .flag-icon-es.flag-icon-squared {
+   background-image: url(../flags/1x1/es.svg);
+ }
+
+ blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+
+blockquote p {
+  display: inline;
+}
