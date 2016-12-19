@@ -54,10 +54,12 @@
 
 <!-- 2nd row verticaly centered images in square columns -->
 
-    <div class="square img3 pic bg" id="meglish">
+    <div class="square img3 pic bg"  data-toggle="modal" data-target="#myModal">
         <div class="content">
             <div class="table">
                 <div class="table-cell">
+
+
                 </div>
             </div>
         </div>
@@ -106,7 +108,6 @@
       </div>
     </div>
   </div>
-<div class="top-p" id="projectinfo"></div>
 
     <footer class="footer">
       <div class="container">
@@ -114,7 +115,28 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/meaghanjonesiswonderful/"><i class="fa fa-instagram fa-2x contact-icons" aria-hidden="true"></i></a>
       </div>
     </footer>
-
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Meglish, 2016</h4>
+          </div>
+          <div class="modal-body">
+            <img src="">
+            <p>Client: My Final Project for my studies at Epicodus</p>
+            <p>What: </p>
+            <p>Technologies: </p>
+            <p><a href="http://meglish.herokuapp.com/">meglish.herokuapp.com</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
