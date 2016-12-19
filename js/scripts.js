@@ -30,3 +30,11 @@ $(document).ready(function (){
     }
   )
 });
+
+$(document).ready(function (){
+  $("#polish-english").click(
+    function () {
+      $("#translate_en_pl").text('Meaghan is a great professional and it was fun to work with her. She asked insightful questions to better understand my expectations. She delivered exactly what I requested and even ahead of schedule. I highly recommend her!');
+    }
+  )
+});
