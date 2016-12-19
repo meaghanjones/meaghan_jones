@@ -32,7 +32,9 @@ p {
   width: 5%;
   float:left;
 }*/
-
+.modal-photo {
+  height: 300px;
+}
 
 .square {
   float:left;
@@ -99,7 +101,6 @@ p {
 }
 
 /*  following just for the demo */
-
 
 
 .footer {
