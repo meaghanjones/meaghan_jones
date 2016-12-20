@@ -26,7 +26,7 @@ $(document).ready(function (){
 $(document).ready(function (){
   $("#english-polish").click(
     function () {
-      $("#translate_en_pl").text('Meaghan jest profesionalistką pod każdym względem i przyjemnie się z nią pracuje. Na początku współpracy Meaghan jest dociekliwa, by lepiej zrozumieć oczekiwania klienta. Pozwala jej to dostarczyć gotowe rozwiązania przed czasem, doskonale spełniając określone wymogi. Gorąco polecam pracę z Meaghan!');
+      $("#translate_en_pl").html('Meaghan jest profesionalistką pod każdym względem i przyjemnie się z nią pracuje. Na początku współpracy Meaghan jest dociekliwa, by lepiej zrozumieć oczekiwania klienta. Pozwala jej to dostarczyć gotowe rozwiązania przed czasem, doskonale spełniając określone wymogi. Gorąco polecam pracę z Meaghan!');
     }
   )
 });
