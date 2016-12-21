@@ -31,6 +31,7 @@ p {
   color: #0080ff;
 }
 
+
 .text-center {
   text-align: center;
 }
@@ -39,14 +40,14 @@ p {
   color: #0080ff;
 }
 
-/*.pineapple {
-  width: 5%;
-  float:left;
-}*/
+
 .modal-photo {
   width: 98%;
 }
 
+.half-size {
+  height: 25%;
+}
 .square {
   float:left;
   position: relative;
@@ -90,13 +91,13 @@ p {
 }
 
 .img1{
-  background-image: url('../img/candlelight_screenshot.jpg');
+  background-image: url('../img/meglish.jpg');
 }
 .img2{
-    background-image: url('../img/marinamura.jpg');
+    background-image: url('../img/tastings.jpg');
 }
 .img3{
-    background-image: url('../img/meglish.jpg');
+    background-image: url('../img/marinamura.jpg');
 }
 
 .img4 {
@@ -104,7 +105,7 @@ p {
 }
 
 .img5{
-  background-image: url('../img/tastings.jpg');
+  background-image: url('../img/candlelight_screenshot.jpg');
 }
 
 .img6{
