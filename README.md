@@ -1,6 +1,6 @@
 # Meaghan's Portfolio
 
-#### Welcome to Meaghan Jones' Web Developer Portfolio  December, 2016
+#### Welcome to Meaghan Jones' Web Developer Portfolio 2017
 
 #### By Meaghan Jones
 
