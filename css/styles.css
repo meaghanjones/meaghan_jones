@@ -83,7 +83,6 @@ p {
   max-width:100%;
 }
 /*  For responsive images as background */
-
 .bg{
   background-position:center center;
   background-repeat:no-repeat;
@@ -114,8 +113,6 @@ p {
 }
 
 /*  following just for the demo */
-
-
 .footer {
   padding-top: 50px;
   margin-bottom: 20px;
